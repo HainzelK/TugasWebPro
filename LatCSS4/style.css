@@ -1,0 +1,12 @@
+td{
+    height: 50px;
+    border: 1px dashed blue;
+}
+
+tr{
+    background-color: lightcoral;
+}
+
+table{
+    border: 1px solid black;
+}
