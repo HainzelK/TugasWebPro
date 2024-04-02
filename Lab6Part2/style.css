@@ -1,0 +1,119 @@
+.desktop-3 {
+    position: absolute;
+    background-color: #fffd54;
+    height: 560px;
+    width: 1000px;
+    padding: 0;
+    top: 0;
+  }
+  .ellipse1 {
+    background-color: #f6c3cb;
+    height: 493.36px;
+    width: 493.36px;
+    top: 36.64px;
+    left: 152px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .nose {
+    background-color: #fffeff;
+    height: 93.92px;
+    width: 175.52px;
+    top: 308.88px;
+    left: 312px;
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .pig{
+    position: relative;
+  }
+
+  .nostrilleft {
+    background-color: #e63df5;
+    height: 42.8px;
+    width: 42.8px;
+    top: 339.52px;
+    left: 332.8px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .nostrilright {
+    background-color: #e93ef6;
+    height: 42.8px;
+    width: 42.8px;
+    top: 339.52px;
+    left: 424.4px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .eyeright {
+    background-color: #ffffff;
+    height: 78.88px;
+    width: 80.56px;
+    top: 231.04px;
+    left: 457.2px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .eyeleft {
+    background-color: #ffffff;
+    height: 78.32px;
+    width: 79.44px;
+    top: 231.04px;
+    left: 252.24px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .pupilleft {
+    background-color: #000000;
+    height: 42.8px;
+    width: 43.36px;
+    top: 237.2px;
+    left: 275.44px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .pupilright {
+    background-color: #000000;
+    height: 42.8px;
+    width: 43.36px;
+    top: 237.2px;
+    left: 478.92px;
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .earleft,
+  .earright{
+    content : '';
+    position: absolute;
+    border-radius: 40%;
+    width: 0;
+    height: 95px;
+    border-right: 95px solid transparent;
+    border-left: 95px solid transparent;
+    border-top: 100px solid #f333d3;
+    top:0;
+  }
+  .earleft {
+    transform: rotate(-26deg);
+    margin-top: 50px;
+    margin-left:  160px;
+}
+  .earright {
+    transform: rotate(26deg);
+    margin-top: 50px;
+    margin-left:  450px;
+}
+.mouth {
+  width: 80px;
+  height: 60px;
+  border-bottom: 20px solid black;
+  border-radius: 70%;
+  position: absolute;
+  display: block;
+  margin-top: 410px;
+  margin-left: 335px;
+  top: -20px;
+}
